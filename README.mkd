@@ -17,6 +17,7 @@ Melhoria no processo de gestão de request
 2. Pela transação SE93 criar uma transação e associar cada report a uma transação. Exemplo ZRBASIS001 a transação ZBASIS001...... 
 3.  Acesse a transação ZBASIS001 
 4. Na tela principal serão disponibilizados três botões, onde permite “Create”, “Release” ou emitir um relatório com informações das tarefas criadas “Trace”. 
+
 ![ZBASIS001](./imagens/ZBASIS001.png "Interna Transporte Managament")
 
 - **Create:**   Criar uma nova tarefa.
