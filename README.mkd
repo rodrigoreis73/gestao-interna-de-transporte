@@ -25,7 +25,9 @@ Melhoria no processo de gestão de request
   
   ### CRIANDO UMA TAREFA
 
-  5. Clicar no botão *"Create"* ![ZBASIS002](./imagens/Create2.png)
+  5. Clicar no botão *"Create"*
+
+ ![ZBASIS002](./imagens/Create2.png)
 
 - **Jira:**   Numero do ticket relacionado a correção
 - **Client:** Cliente relacionado a correção
