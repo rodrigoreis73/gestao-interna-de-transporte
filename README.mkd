@@ -1,0 +1,85 @@
+# Especificação Funcional
+
+## Justificativa 
+
+Melhoria no processo de gestão de request 
+
+## Beneficio 
+
+- Padronização do processo de criação de request
+- Automação do double check, analise de impacto e conflito de objetos
+- Rastreio de todas as request relacionado ao Jira, facilitando aplicação de notas ponatuais
+- Historico de modificação dos objetos 
+
+### Funcionamento 
+
+1. Pela transações SE38 importar todos os report ZRBASIS***
+2. Pela transação SE93 criar uma transação e associar cada report a uma transação. Exemplo ZRBASIS001 a transação ZBASIS001...... 
+3.  Acesse a transação ZBASIS001 
+4. Na tela principal serão disponibilizados três botões, onde permite “Create”, “Release” ou emitir um relatório com informações das tarefas criadas “Trace”. 
+![ZBASIS001](./imagens/ZBASIS001.png "Interna Transporte Managament")
+
+- **Create:**   Criar uma nova tarefa.
+- **Release:** Liberar a tarefa criada
+- **Trace:** Através de filtros permite exibir informações detalhadas de tarefas criadas.
+  
+  ### CRIANDO UMA TAREFA
+
+  5. Clicar no botão *"Create"* ![ZBASIS002](./imagens/Create2.png)
+
+- **Jira:**   Numero do ticket relacionado a correção
+- **Client:** Cliente relacionado a correção
+- **Product:** Modulo relacionado a correção 
+
+  6. Preenchar os campos conforme solicitado e clicar no botão executar e será exibidas informações referente a tarefa criada
+   - Exemplo: MW0K901173
+
+### LIBERANDO A TAREFA
+
+7. Volte ao menu principal (ZBASIS001) e clique no botão "Release"
+
+![ZBASIS003](./imagens/OpcaoRelease1.png)
+![ZBASIS003](./imagens/OpcaoRelease2.png)
+
+**Request/Task:** ID da tarefa onde foram salvas as alterações.
+**Keyword EN e PT:** São palavras chave sugestivas referentes a modificação
+
+
+8. Preencher os campos conforme solicitado 
+9. Clicar no botão executar. Será exibido no rodapé uma mensagem de alerta informando o sucesso da liberação da tarefa
+
+![ZBASIS003](./imagens/OpcaoRelease4.png)
+
+
+### EMITINDO RELATORIO DE INFORMAÇÕES DAS TAREFAS CRIADAS
+
+10. Volte a tela principal (ZBASIS001)
+
+![Imagem](./imagens/MenuOpction.png)
+
+11. Clicar no botão "Trace"
+
+![Imagem](./imagens/OpactionTrance.png)
+
+12. Informe os Filtros conforme a necessidade e clicar no botão executar 
+
+![Imagem](./imagens/ResultTrace.png)
+
+
+Fim! Você acabou de aprender o passo-a-passo como. Criar, liberar e emitir  um relatório de tarefas criadas. Qualquer dúvida favor entrar em contato no e-mail rodrigoreis73@hotmail.com.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
